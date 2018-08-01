@@ -14,14 +14,12 @@ public static void main(String args[])
 	int j = 0;
 	for(int i=len-n;i<len;i++)
 	{
-		my += str[i];
+		my =my + str[i];
 	}
 	System.out.print(s);
 	while(n != 0) {
 		System.out.print(my);
 		n--;
 	}
-	
-	
 }
 }
